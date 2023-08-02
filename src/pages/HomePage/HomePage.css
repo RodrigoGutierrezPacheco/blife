@@ -119,8 +119,10 @@ h1{
 	border-radius: 2rem;
 	padding: .7rem;
 	margin-top: 5rem;
-	width: 70%;
+	width: 65%;
 	margin-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .row{
