@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
-	/* Ruta de la imagen de fondo */
 	background-image: url(../../../public/images/fondo.jpeg);
-	/* Ancho y alto del cuerpo para ocupar toda la pantalla */
 	width: 100%;
 	height: 100vh;
-	/* Evita que la imagen se repita en ambas direcciones */
 	background-repeat: no-repeat;
-	/* Ajusta la imagen de fondo al tamaño completo del elemento */
 	background-size: cover;
-	/* Centra la imagen vertical y horizontalmente */
 	background-position: center center;
-	/* Fija la imagen en su posición para que no se desplace con el contenido */
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
@@ -19,19 +13,12 @@ body {
 }
 
 .home {
-	/* Ruta de la imagen de fondo */
 	background-image: url(../../../public/images/fondo1.png);
-	/* Ajusta la imagen de fondo al tamaño completo del elemento */
 	background-size: cover; 
-	/* Centra la imagen vertical y horizontalmente */
 	background-position: center center;
-	/* Evita que la imagen se repita en ambas direcciones */
 	background-repeat: no-repeat;
-	/* Ancho del elemento para ocupar el 90% del ancho de la ventana */
 	width: 100%;
-	/* Alto del elemento para ocupar el 90% del alto de la ventana */
 	height: 90vh;
-	/* Agrega un borde redondeado de 2 rem al elemento */
 	border-radius: 2rem;
 	display: flex;
 	flex-direction: column;
@@ -133,6 +120,7 @@ h1{
 	padding: .7rem;
 	margin-top: 5rem;
 	width: 70%;
+	margin-bottom: 2rem;
 }
 
 .row{
